@@ -1,0 +1,48 @@
+@import "bootstrap";
+img {
+  max-width: 100%
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.box{
+  border:1px solid grey;
+  margin:20px;
+  padding: 20px;
+  float: left;
+  width: 100%;
+}
+
+.thumb{
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+.text {
+  float: left;
+  width: calc(100% - 210px);
+}
+
+.audio{
+  float:left;
+  width:100%;
+  margin-top:20px;
+}
+
+.header{
+  float:left;
+  width: 100%;
+  padding:5px;
+  text-align: center;
+  background: #090967;
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.last{
+  margin-top:20px;
+}

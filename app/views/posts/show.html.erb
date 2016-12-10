@@ -10,5 +10,12 @@
   <%= @post.description %>
 </p>
 
+<%= image_tag @post.image.url %>
+
+<audio controls>
+	<source src="<%= @post.audio.url %>" type="audio/mpeg">
+	Your browser does not support the audio element.
+</audio>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
